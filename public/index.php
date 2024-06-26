@@ -1,6 +1,5 @@
 <?php
 require_once '../config/config.php';
-require_once '../config/autoload.php';
 
 // Ejemplo simple de enrutamiento
 $url = isset($_GET['url']) ? rtrim($_GET['url'], '/') : 'user/profile';
